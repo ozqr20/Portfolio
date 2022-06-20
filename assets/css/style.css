@@ -36,8 +36,6 @@ header h2{
     
 }
 
-    /* About, Services, Work and Contact sections banner*/
-
 header div{
     font-size: 20px;
     display: flex;
@@ -98,6 +96,46 @@ h2 {
     padding: 20px;
 }
 
+
+    /* WORK */
+
+.divisions {
+    width: 100%;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+}
+
+.summer-game-img {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../images/summer-project.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.horiseon-img {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../images/horiseon.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-buddy-img {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../images/run-buddy.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
 /* CONTACT ME */
 
 .contact-info {
@@ -132,3 +170,5 @@ h2 {
     text-decoration: none;
     margin-bottom: -6;
 }
+
+
