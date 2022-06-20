@@ -4,11 +4,6 @@
     margin: 0;
 }
 
-:root{
-    --main-bg-color: #2f4553;
-    --primary-color: hsl(118, 80%, 52%);
-    --secondary-color: #616c6d;
-}
 
  body {
     background: linear-gradient( to top, rgba(10, 141, 60, 0.349), rgb(10, 80, 160));
@@ -78,7 +73,7 @@ header div ul li {
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: flex-end;
-    border-right: 2px solid black;
+    border-right: 4px solid black;
 }   
 
 
@@ -128,11 +123,12 @@ h2 {
     padding-left: 10px;
     flex-wrap: wrap;
     padding-bottom: 0;
-    border-bottom: 2px solid black;
     
 
 }
 
 .column2 a{
+    color: black;
     text-decoration: none;
+    margin-bottom: -6;
 }
