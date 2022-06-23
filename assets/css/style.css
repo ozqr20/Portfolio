@@ -96,7 +96,7 @@ header div ul li {
 .column {
     display: flex;
     align-items: center;
-    min-width: 500px;
+    min-width: 350px;
     padding: 30px;
     flex-direction: row;
     flex-wrap: wrap;
