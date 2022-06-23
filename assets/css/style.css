@@ -20,10 +20,22 @@ header {
     justify-content: space-between;
 
 }
-header a{
+header a:hover{
     text-decoration: none;
     color: aliceblue;
     opacity: .9;
+    font-size: 40px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+header a{
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none;  /* removes  ____ */
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header h2{
@@ -33,6 +45,7 @@ header h2{
     padding: 20px;
     color: aliceblue;
     opacity: .8;
+    letter-spacing: 1px;
     
 }
 
@@ -57,10 +70,13 @@ header div ul li {
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     padding-top: 20px;
-
 }   
+
+.row a {
+    display: flex;
+    align-items:center;
+}
 .column {
     display: flex;
     align-items: center;
@@ -95,8 +111,7 @@ h2 {
 }
 
 
-
-    /* WORK */
+    /* WORK  SECTION */
 
 .row2 {
     display: flex;
@@ -121,74 +136,44 @@ h2 {
     list-style-type:none;
 }
 
+.divisions a{
+    font-size: 30px;
+    opacity: .5;
+    color: aliceblue;
+}
+
 
 .summer-game-img {
-    width: 100%;
-    font-family: 'Courier New', Courier, monospace;
     background-image: url("../images/banner-game.jpg");
-    background-size: cover;
-    display: flex;
-    opacity: .5;
-    border-style:solid;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
-.summer-game-img a{
-    font-display: bold;
-    font-size: 50px;
-    color: aliceblue;
-}
 .horiseon-img {
-    width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url("../images/istockphoto-1165514151-612x612.jpg");
+    background-image: url("../images/Screenshot\ \(940\).png");
+}
+.run-buddy-img {
+    background-image: url("../images/runbuddy.png");
+} 
+
+.horiseon-img, .run-buddy-img, .summer-game-img {
     background-size: cover;
     display: flex;
-    opacity: .5;
+    opacity: .7;
     border-style:solid;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.horiseon-img a{
-    font-display: bold;
+.summer-game-img a:hover, .horiseon-img a:hover,.run-buddy-img a:hover {
     font-size: 50px;
     color: aliceblue;
 }
 
-.run-buddy-img {
-    width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url("../images/fitness-banner.jpg");
-    background-size: cover;
+#run-budy, #horiseon, #summer-game-project {
     display: flex;
-    opacity: .5;
-    border-style:solid;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
 }
-
-.run-buddy-img a{
-    font-display: bold;
-    font-size: 50px;
-    color: hsl(69, 89%, 65%);
-}
-
-.column2-work button {
-    width: 5%;
-    border: none;
-    background: black;
-    color: yellowgreen;
-    text-align: left;
-    padding: 15px 0;
-    font-size: 16px;
-    border-radius: 10px
-}
-
 
 
 /* CONTACT ME */
@@ -196,7 +181,6 @@ h2 {
 .contact-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     padding-top: 20px;
     min-width: 763px;
 }
