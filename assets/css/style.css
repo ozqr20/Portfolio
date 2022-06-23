@@ -31,22 +31,25 @@ header a:hover{
 
 header a{
     font-size: 20px;
-    padding-right: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
     text-decoration: none;  /* removes  ____ */
     color: aliceblue;
     display: flex;
     flex-wrap: wrap;
+    opacity: .8;
 }
 
 header h2{
     font-size: 25px;
     display: flex;
+    flex-wrap: wr;
     align-items:center;
     padding: 20px;
     color: aliceblue;
     opacity: .8;
     letter-spacing: 1px;
-    
+    font-weight: bold;
 }
 
 header div{
@@ -54,6 +57,7 @@ header div{
     display: flex;
     align-items:center;
     justify-content: center;
+    padding: 5px;
 }
 header ul{
     list-style-type:none;
@@ -169,10 +173,6 @@ h2 {
 .summer-game-img a:hover, .horiseon-img a:hover,.run-buddy-img a:hover {
     font-size: 50px;
     color: aliceblue;
-}
-
-#run-budy, #horiseon, #summer-game-project {
-    display: flex;
 }
 
 
