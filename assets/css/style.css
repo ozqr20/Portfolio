@@ -95,7 +95,6 @@ header div ul li {
     justify-content: flex-end;
     align-items: center;
     padding: 10px;
-    height: 300px;
 }
 
 h2 {
@@ -132,16 +131,16 @@ h2 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    list-style-type:none;
+    list-style-type: none;
+    justify-content: space-around;
 }
 
 .divisions a{
     font-size: 30px;
     opacity: .5;
     color: aliceblue;
+    text-decoration: none;  /* removes  ____ */
 }
-
 
 .summer-game-img {
     background-image: url("../images/banner-game.jpg");
@@ -159,11 +158,12 @@ h2 {
     display: flex;
     opacity: .7;
     border-style:solid;
-    border-radius: 20px;
+    border-radius: 70px;
     justify-content: center;
     align-items: center;
     width: 90%;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .summer-game-img a:hover, .horiseon-img a:hover,.run-buddy-img a:hover {
@@ -176,13 +176,15 @@ h2 {
 }
 
 
-/* CONTACT ME */
+/* CONTACT ME FOOTER */
 
 .contact-info {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
     min-width: 763px;
+    justify-content: center;
+    align-items: center;
 }
 
 
