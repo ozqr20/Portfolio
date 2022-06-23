@@ -43,13 +43,25 @@ header a{
 header h2{
     font-size: 25px;
     display: flex;
-    flex-wrap: wr;
+    flex-wrap: wrap;
     align-items:center;
     padding: 20px;
     color: aliceblue;
     opacity: .8;
     letter-spacing: 1px;
-    font-weight: bold;
+}
+
+header img{
+    max-width: 100%;
+    max-height: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: .4;
+}
+
+.pic-image {
+    display: flex;
+    flex-wrap: nowrap ;
 }
 
 header div{
