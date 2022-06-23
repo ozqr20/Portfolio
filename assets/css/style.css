@@ -51,19 +51,6 @@ header h2{
     letter-spacing: 1px;
 }
 
-header img{
-    max-width: 100%;
-    max-height: 108px;
-    display: flex;
-    flex-wrap: wrap;
-    opacity: .4;
-}
-
-.pic-image {
-    display: flex;
-    flex-wrap: nowrap ;
-}
-
 header div{
     font-size: 20px;
     display: flex;
@@ -81,7 +68,24 @@ header div ul li {
     flex-wrap: wrap;
 }
 
-    /*ABOUT Section*/
+
+    /* PROFILE PICTURE */
+
+header img{
+    max-width: 100%;
+    max-height: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: .7;
+    border-radius: 150px;
+}
+
+.pic-image {
+    display: flex;
+    flex-wrap: nowrap ;
+}
+
+    /*ABOUT SECTION*/
 
 .row {
     display: flex;
@@ -155,7 +159,7 @@ h2 {
     font-size: 30px;
     opacity: .5;
     color: aliceblue;
-    text-decoration: none;  /* removes  ____ */
+    text-decoration: none;  /* It removes underline from hyperlink */
 }
 
 .summer-game-img {
