@@ -64,7 +64,6 @@ header div ul li {
 .column {
     display: flex;
     align-items: center;
-    width: 80%;
     min-width: 500px;
     padding: 30px;
     flex-direction: row;
@@ -79,7 +78,6 @@ header div ul li {
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
     padding: 10px;
     height: 300px;
 }
@@ -97,42 +95,99 @@ h2 {
 }
 
 
+
     /* WORK */
 
-.divisions {
-    width: 100%;
-    padding: 10px;
-    height: 500px;
+.row2 {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+
 }
 
+.column2-work {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.divisions {
+    height: 536px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type:none;
+}
+
+
 .summer-game-img {
-    padding: 20px;
+    width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("../images/summer-project.png");
+    background-image: url("../images/banner-game.jpg");
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+    opacity: .5;
+    border-style:solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.summer-game-img a{
+    font-display: bold;
+    font-size: 50px;
+    color: aliceblue;
 }
 .horiseon-img {
-    padding: 20px;
+    width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("../images/horiseon.png");
+    background-image: url("../images/istockphoto-1165514151-612x612.jpg");
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+    opacity: .5;
+    border-style:solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.horiseon-img a{
+    font-display: bold;
+    font-size: 50px;
+    color: aliceblue;
 }
 
 .run-buddy-img {
-    padding: 20px;
+    width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("../images/run-buddy.png");
+    background-image: url("../images/fitness-banner.jpg");
     background-size: cover;
     display: flex;
-    justify-content: space-between;
+    opacity: .5;
+    border-style:solid;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
+.run-buddy-img a{
+    font-display: bold;
+    font-size: 50px;
+    color: hsl(69, 89%, 65%);
+}
 
+.column2-work button {
+    width: 5%;
+    border: none;
+    background: black;
+    color: yellowgreen;
+    text-align: left;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px
+}
 
 
 
