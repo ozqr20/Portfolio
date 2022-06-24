@@ -68,7 +68,6 @@ header div ul li {
     flex-wrap: wrap;
 }
 
-
     /* PROFILE PICTURE */
 
 header img{
@@ -137,7 +136,6 @@ h2 {
     flex-wrap: nowrap;
     flex-direction: row;
     width: 100%;
-
 }
 
 .column2-work {
@@ -183,7 +181,6 @@ h2 {
     align-items: center;
     width: 90%;
     font-family: 'Courier New', Courier, monospace;
-    
 }
 
 .summer-game-img a:hover, .horiseon-img a:hover,.run-buddy-img a:hover {
@@ -203,7 +200,6 @@ h2 {
     align-items: center;
 }
 
-
 .contact-info div{
     font-size: 20px;
     display: flex;
@@ -218,8 +214,6 @@ h2 {
     padding-left: 10px;
     flex-wrap: wrap;
     padding-bottom: 0;
-    
-
 }
 
 .column2 a{
@@ -228,4 +222,58 @@ h2 {
     margin-bottom: -6;
 }
 
+
+    /*MEDIA QUERIE */
+
+    
+/* It did not work, needs fix */
+/* 
+@media screen and (max-width: 575px) {
+    .pic-image {
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 200px;
+        max-height: 200px;
+     
+    }
+
+    .row p{
+        padding: 50px 20px;
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    h2{
+        font-size: 6vw;
+        text-align: center;
+    }
+    
+    .contact-info{
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    .contact-info>*{
+        flex: 0 100%;
+    }
+
+    .column{
+        flex:1;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .row{
+        flex:1;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .row2{
+        flex:1;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+} */
 
