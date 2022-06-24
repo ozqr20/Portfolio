@@ -16,7 +16,7 @@ A website that shows projects that I have built until now.
 
 ## CS File 
 
-* It is organized by sections with comments as well as the layout 
+* It is organized by sections with comments. Its layout is cascading meaning that as you read the HTML you should be able to easily find its properties. 
 
 ## Website
 https://ozqr20.github.io/Portfolio/
