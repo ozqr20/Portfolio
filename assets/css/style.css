@@ -164,7 +164,7 @@ h2 {
     background-image: url("../images/banner-game.jpg");
 }
 
-.food {
+.food-img {
     background-image: url("../images/Screenshot\ \(983\).png");
 }
 .horiseon-img {
@@ -177,7 +177,7 @@ h2 {
     background-image: url("../images/Shelter-shop.png");
 }
 
-.horiseon-img, .run-buddy-img, .summer-game-img, .shelter-img {
+.horiseon-img, .run-buddy-img, .summer-game-img, .shelter-img, .food-img  {
     background-size: cover;
     display: flex;
     opacity: .7;
@@ -189,7 +189,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.summer-game-img a:hover, .horiseon-img a:hover,.run-buddy-img a:hover, .shelter-img a:hover {
+.summer-game-img a:hover, .horiseon-img a:hover,.run-buddy-img a:hover, .shelter-img a:hover, .food-img a:hover {
     font-size: 50px;
     color: #15b1e1;
 }
